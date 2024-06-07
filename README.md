@@ -1,6 +1,5 @@
 # [What is Dataset Distillation Learning?](https://arxiv.org/abs/2406.04284)
 
-## Instructions
 After cloning the repo, download the distilled data and pretrained model from [Google Drive](https://drive.google.com/drive/folders/1kTQnt5WszAgifbyCYVPnaUYQrdqlAkNT?usp=sharing).
 
 ## Distilled vs. Real Data
