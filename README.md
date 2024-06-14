@@ -14,10 +14,12 @@ python experiment_code/agreement_analysis/generate_models.py
 Finally, compare and visualize the prediction differences using the [jupyter notebook](https://github.com/princetonvisualai/What-is-Dataset-Distillation-Learning/blob/main/experiment_code/agreement_analysis/compare_models.ipynb).
 
 ### Recognition on the distilled data is learned early in the training process
-Coming Soon.
+Use [jupyter notebook](https://github.com/princetonvisualai/What-is-Dataset-Distillation-Learning/blob/main/experiment_code/early_training_analysis/recognition.ipynb).
 
 ### Distilled data stores little information beyond what would be learned early in training
-Coming Soon.
+Refer to [jupyter notebook](https://github.com/princetonvisualai/What-is-Dataset-Distillation-Learning/blob/main/experiment_code/early_training_analysis/Hessian.ipynb). 
+
+Note: computing Hessian approximation for the whole training data takes a long time (10+ hours on a L40 GPU). Comment out this Hessian computation if there is a lack of compute resources (Hessian calculations on distilled data is notably less resource intensive). 
 
 ## Semantics of Captured Information
-Coming Soon.
+Use [jupyter notebook](https://github.com/princetonvisualai/What-is-Dataset-Distillation-Learning/blob/main/experiment_code/influence_analysis/influence.ipynb) to generate the qualitative analysis (Figure 10) of the paper. For quantitative analysis, refer to the [LLaVa repo](https://github.com/haotian-liu/LLaVA). 
