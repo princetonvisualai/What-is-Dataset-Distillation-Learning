@@ -1,7 +1,12 @@
 # [What is Dataset Distillation Learning?](https://arxiv.org/abs/2406.04284)
 
 After cloning the repo, download the distilled data and pretrained model from [Google Drive](https://drive.google.com/drive/folders/1kTQnt5WszAgifbyCYVPnaUYQrdqlAkNT?usp=sharing).
-
+Afterwards, create the conda enviroment:
+```
+conda create -n learning python=3.10.12
+conda activate learning
+pip install -r requirements.txt
+```
 ## Distilled vs. Real Data
 To run analyses done in Section 3 of the paper, refer to the two jupyter notebooks in [experiment_code/replacement_analysis](https://github.com/princetonvisualai/What-is-Dataset-Distillation-Learning/tree/main/experiment_code/replacement_analysis)
 
